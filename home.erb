@@ -1,0 +1,13 @@
+<div class="notice">
+	<%= flash[:notice] if flash[:notice] %>
+</div>
+<div class="title" style="text-align: center;">
+	<h2>How do you feel?</h2>
+</div>
+<br/>
+
+<form action="/post" method="post" role="form">
+	<button class="option one" type="submit" name="state" value="0" > I'm bringin' sexy back </button>
+	<button class="option two" type="submit" name="state" value="1" > Them other boys don't know how to act </button>
+	<button class="option three" type="submit" name="state" value="2"> Go 'head, child and get your sexy on</button>
+</form>
